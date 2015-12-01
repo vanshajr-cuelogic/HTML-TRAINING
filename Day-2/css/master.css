@@ -70,9 +70,10 @@ button:hover, button:focus, button:active, button:visited{
     font-family: "calibriRegular";
     text-decoration: none;
  }
- .bingo-header nav ul li a:hover{
+ .bingo-header nav ul li a:hover,.bingo-header nav ul li a.active{
  	color:#d5d5c3;
  }
+
 /*Footer*/
 footer{
 	background-color: #222;
@@ -183,4 +184,119 @@ footer{
 	font-family: "Helvetice-Light";
 	font-size: 18px;
 	line-height:28px;
+}
+
+/*Blog */
+.blog-wrapper .thumbnail-panel p{
+	font-size: 16px;
+	font-style: italic;
+	font-family: "Helvetice-Light";
+	line-height: 25px;
+}
+.blog-wrapper .thumbnail-panel ul{
+	display: inline-block;
+}
+.blog-wrapper ul li{
+	display: block;
+	margin: 40px;
+}
+.game-list{
+	margin:0 35px;
+}
+.game-list ul li{
+	border:none;
+	margin: 15px 0;
+    height: auto;
+    width: 262px;
+}
+.game-list ul li a{
+	text-decoration: none;
+	color:#222;
+	font-size: 18px;
+	padding:4px 5px;
+}
+.game-list ul li a:hover{
+	color:#555;
+}
+
+/*Score Board*/
+.score-board table{
+	float: none;
+	margin:35px auto;
+}
+.score-board h2,h5{
+	text-align: center;
+}
+table th{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	font-size: 16px;
+}
+table, th, td {
+    border-collapse: collapse;
+    padding: 15px 25px;
+    background:#fff;
+    text-align: center;
+    font-family: "Helvetice-Light";
+}
+table td:first-child{
+	text-transform: uppercase;
+	text-align: left;
+} 
+
+
+/*game-score-table ul li structure*/
+.game-score-table{
+	margin: 35px;
+	background: #fff;
+	font-family: "Helvetice-Light";
+}
+.game-score-table ul{
+	list-style-type: none;
+	padding:0 15px;
+}
+.game-score-table li{
+	display: inline-block;
+	width: 105px;
+	font-size: 15px;
+
+}
+.game-score-table li:first-child{
+	width: 135px;
+    padding: 15px 8px;
+}
+.game-score-table .gameboard-head{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	border-color:#fff;
+	font-weight: normal;
+	font-size: 16px;
+}
+.gameboard-head ul li{
+	color: #fff;
+	text-align: center;
+	border-color:#fff;
+	font-weight: normal;
+	font-size: 16px;
+	width: 87px;
+	}
+.game-score-table .game-element ul{
+	padding: 0;
+}
+.game-score-table .game-element li{
+	text-align: center;
+	border-color:#000;
+	font-weight: normal;
+	font-size: 16px;
+	width: 84px;
+    display: inline-block;
+    padding: 15px 11px;
+    margin: 0;
+}
+.game-score-table .game-element li:first-child{
+	width: 135px;
+    text-align: center;
 }
