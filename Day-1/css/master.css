@@ -33,6 +33,7 @@ button:hover, button:focus, button:active, button:visited{
 .bingo-header{
 	background-color: #222;
 	padding:15px 20px;
+	height: 50px;
 }
 .bingo-header *{
 	display: inline-block;
@@ -41,6 +42,8 @@ button:hover, button:focus, button:active, button:visited{
 }
 .bingo-header h1{
 	cursor: pointer;
+	overflow: hidden;
+    float: left;
 }
 .bingo-header h1>img{
 	margin: 0px 10px;
@@ -70,7 +73,6 @@ button:hover, button:focus, button:active, button:visited{
  .bingo-header nav ul li a:hover{
  	color:#d5d5c3;
  }
-
 /*Footer*/
 footer{
 	background-color: #222;
@@ -90,10 +92,13 @@ footer{
 	float: none;
 	border:1px solid #999;
 	border-radius: 5px;
-	margin: 80px auto;
+	margin: 57px auto;
 }
 .login-section.wrapper{
 	width:400px;
+}
+.login-section form{
+	overflow: hidden;
 }
 .registration-section.wrapper{
 	width:500px;
@@ -111,6 +116,18 @@ footer{
     font-size: 20px;
     margin: 15px;
 }
+.wrapper section ul .forgot-password{
+	float: right;
+    margin: 0px 14px 15px 0px;
+}
+.wrapper section ul .forgot-password a{
+  color:#3399FF;
+  text-decoration: none;
+}
+.wrapper section ul .forgot-password a:hover{
+	color:#3366FF;
+}
+
 .wrapper section ul li label{
 	line-height: 40px;
 	font-family: "Helvetice-Light";
@@ -124,7 +141,7 @@ footer{
 }
 .wrapper .login-btn{
 	border:none;
-	margin:15px 3px;
+	margin:15px 0 0 0;
 	cursor: pointer;
 	font-size: 20px;
 }
